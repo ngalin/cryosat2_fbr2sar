@@ -12,6 +12,9 @@
 % Copyright (C) 2013 Natalia Galin.
 % Questions/Comments/Suggestion/Corretions? 
 % Please do get in touch: natalia.galin@gmail.com
+% (A doc describing each useful line of this code is in the pineline, and 
+% will be released shortly. So stay tuned if you're intrested in the 
+% nitty gritty.)
 %
 % This program is free software: you can redistribute it and/or modify
 % it under the terms of the GNU General Public License as published by
