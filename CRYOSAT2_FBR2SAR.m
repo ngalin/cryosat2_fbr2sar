@@ -10,7 +10,8 @@
 % does not perform stacking of the beams.
 %
 % Copyright (C) 2013 Natalia Galin.
-% Questions? natalia.galin@gmail.com
+% Questions/Comments/Suggestion/Corretions? 
+% Please do get in touch: natalia.galin@gmail.com
 %
 % This program is free software: you can redistribute it and/or modify
 % it under the terms of the GNU General Public License as published by
