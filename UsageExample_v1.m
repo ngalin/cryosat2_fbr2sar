@@ -1,3 +1,5 @@
+%download ExampleData.mat from my DropBox at https://www.dropbox.com/home/CRYOSAT2_FBR2SAR
+%this folder also contains some pertinent papers to read FYI.
 load ExampleData.mat
 RETRACK_FLAG = 1;
 HAMWIN_FLAG = 0;
