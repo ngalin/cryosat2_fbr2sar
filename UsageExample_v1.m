@@ -1,4 +1,5 @@
 %download ExampleData.mat from my DropBox at https://www.dropbox.com/home/CRYOSAT2_FBR2SAR
+%the link to the dropbox folder should be: https://www.dropbox.com/sh/398xezvc6xbngyf/y5rIPVxUj0
 %this folder also contains some pertinent papers to read FYI.
 load ExampleData.mat
 RETRACK_FLAG = 1;
