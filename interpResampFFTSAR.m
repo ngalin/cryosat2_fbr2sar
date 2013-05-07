@@ -21,7 +21,7 @@
 % x(n) = input waveform
 % y(n*(1/I) + D) = output waveform
 
-function [y] = interpResampFFT(x,winSelect,I,D,delT)
+function [y] = interpResampFFTSAR(x,winSelect,I,D,delT)
 
     %interpolation and resampling
     N = length(x);
