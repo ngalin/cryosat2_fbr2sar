@@ -25,13 +25,14 @@ def interpResamp(inputData,smoothing,I,D) :
     for i in range(0, L):
         idx = [(t[i]-x) for x in n]
         snc = (np.sinc(idx)).tolist()
+        tmp = [a*b for a,b in zip(inputData,snc)]
+        
         if (smoothing) :
             win = getWindowExpression(idx)
-            tmp = [a*b*c for a,b,c in zip(inputData,win,snc)]
-            outputData.append(sum(tmp))
-        else :
-            tmp = [a*b for a,b in zip(inputData,snc)]
-            outputData.append(sum(tmp))
+            tmp = [a*b for a,b in zip(tmp,win)]
+        
+        outputData.append(sum(tmp))
+        
     outputData = [abs(x) for x in outputData]
     return [t, outputData]
  
